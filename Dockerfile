@@ -2,7 +2,7 @@ FROM spark:python3
 
 USER root
 
-RUN pip install --no-cache-dir pyarrow duckdb python-dotenv
+RUN pip install --no-cache-dir pyarrow duckdb
 
 RUN mkdir -p /home/spark \
     && chown -R spark:spark /home/spark \
