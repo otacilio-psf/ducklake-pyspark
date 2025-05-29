@@ -2,7 +2,7 @@
 
 This repository demonstrates how to use the new [**DuckLake**](https://ducklake.select/) table format with [**Spark 4 - Python Data Source API**](https://spark.apache.org/docs/4.0.0/api/python/tutorial/sql/python_data_source.html) feature.
 
-DuckLake is a newly released table format from DuckDB Labs, designed to compete with Delta Lake and Apache Iceberg. PySpark 4 introduces support for Python-based data sources, which allows Spark to directly integrate with libraries like DuckDB using Python APIs.
+DuckLake is a newly released table format from DuckDB, designed to compete with Delta Lake and Apache Iceberg. PySpark 4 introduces support for Python-based data sources, which allows Spark to directly integrate with libraries like DuckDB using Python APIs.
 
 In this demo:
 
