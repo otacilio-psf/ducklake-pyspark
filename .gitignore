@@ -1,0 +1,5 @@
+data/idoc-xml/*
+.env
+__pycache__
+ducklake/
+*.sqlite

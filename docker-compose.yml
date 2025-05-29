@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: ducklake_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ducklake_user
+      POSTGRES_PASSWORD: supersecret
+      POSTGRES_DB: ducklake_catalog
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    networks:
+      - ducklake_net
+
+volumes:
+  pg_data:
+
+networks:
+  ducklake_net:
